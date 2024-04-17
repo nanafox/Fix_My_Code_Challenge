@@ -26,13 +26,14 @@ class Square:
 
     def area_of_my_square(self):
         """Area of the square"""
-        return self.__size ** 2
+        return self.__size * self.__size
 
     def permiter_of_my_square(self):
         """Returns the perimeter of the square."""
         return self.__size * 4
 
     def __str__(self):
+        """Returns a string representation of the square."""
         return f"{self.size}/{self.size}"
 
 
